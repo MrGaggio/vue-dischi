@@ -54,7 +54,7 @@ export default {
 main {
   background-color: #1e2d3b;
   text-align: center;
-  height: calc(100vh - 80px);
+  overflow-y: hidden;
 }
 h2{
     color: white;
@@ -70,6 +70,6 @@ h5, h6 {
 .card {
   background-color: #2e3a46 !important;
   padding-top: 20px;
-  padding-bottom: 50px;
+  
 }
 </style>
