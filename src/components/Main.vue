@@ -8,7 +8,7 @@
             alt="Prova"
              />
             <h2 class="f2-bold" >New Jersey</h2>
-            <h5 class="fs-5">Bon Jovi</h5>
+            <h5 class="fs-5 my-0">Bon Jovi</h5>
             <h6 class="fs-6">1980</h6>
         </div>
         
@@ -115,6 +115,7 @@ main {
 }
 h2{
     color: white;
+    padding-top: 10px;
 }
 h5, h6 {
     color: #75756F;
@@ -126,5 +127,6 @@ h5, h6 {
 .card {
   background-color: #2e3a46 !important;
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 </style>
