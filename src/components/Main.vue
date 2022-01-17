@@ -2,14 +2,23 @@
   <main>
     <div class="container">
       <div class="row cards">
-        <div class="col-2 card mx-3 my-2">
+        <div class="col-2 card mx-3 my-2"
+        :key="index" 
+        v-for="(cover, index) in covers"
+        >
             <img
-            src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg"
-            alt="Prova"
+            :src="cover.poster"
+            alt=""
              />
-            <h2 class="f2-bold" >New Jersey</h2>
-            <h5 class="fs-5 my-0">Bon Jovi</h5>
-            <h6 class="fs-6">1980</h6>
+            <h2 class="f2-bold">
+                {{ cover.title }}
+            </h2>
+            <h5 class="fs-5 my-0">
+                {{ cover.author }}
+            </h5>
+            <h6 class="fs-6">
+                {{ cover.year }}
+            </h6>
         </div>
         
       </div>
@@ -44,8 +53,8 @@ export default {
 <style lang="scss">
 main {
   background-color: #1e2d3b;
-  height: 1000px;
   text-align: center;
+  height: calc(100vh - 80px);
 }
 h2{
     color: white;
