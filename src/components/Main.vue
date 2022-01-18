@@ -1,6 +1,20 @@
 <template>
   <main>
     <div class="container">
+      <div class="row">
+        <div class="search d-flex justify-content-center">
+          <label class="gendre mx-3" for="dischi">CHOOSE A GENDRE</label>
+          <select name="dischi" id="dischi">
+            
+            <input type="text" name="scegli" id="">
+            <option id="all" value="text">All</option>
+            <option id="metal" value="text">Metal</option>
+            <option id="pop" value="text">Pop</option>
+            <option id="rock" value="text">Rock</option>
+            <option id="jazz" value="text">Jazz</option>
+          </select>
+        </div>
+      </div>
       <div class="row cards">
         <div class="col-2 card mx-3 my-2"
         :key="index" 
@@ -74,6 +88,9 @@ h5, h6 {
 .card {
   background-color: #2e3a46 !important;
   padding-top: 20px;
-  
+}
+.gendre{
+  color: #75756F;
+  font-weight: 700;
 }
 </style>
