@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss">
-html{
+body{
     background-color: #1e2d3b;
 }
 
