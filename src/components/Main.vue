@@ -51,10 +51,14 @@ export default {
 </script>
 
 <style lang="scss">
+html{
+    background-color: #1e2d3b;
+}
+
 main {
-  background-color: #1e2d3b;
   text-align: center;
   overflow-y: hidden;
+  background-color: #1e2d3b;
 }
 h2{
     color: white;
