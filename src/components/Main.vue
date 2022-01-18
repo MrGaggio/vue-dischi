@@ -1,18 +1,9 @@
 <template>
   <main>
     <div class="container">
-      <div class="row">
+      <div class="row mb-4">
         <div class="search d-flex justify-content-center">
-          <label class="gendre mx-3" for="dischi">CHOOSE A GENDRE</label>
-          <select name="dischi" id="dischi">
-            
-            <input type="text" name="scegli" id="">
-            <option id="all" value="text">All</option>
-            <option id="metal" value="text">Metal</option>
-            <option id="pop" value="text">Pop</option>
-            <option id="rock" value="text">Rock</option>
-            <option id="jazz" value="text">Jazz</option>
-          </select>
+
         </div>
       </div>
       <div class="row cards">
@@ -42,6 +33,7 @@
 
 <script>
 import axios from 'axios';
+
 export default {
   name: "Main",
 
@@ -92,5 +84,6 @@ h5, h6 {
 .gendre{
   color: #75756F;
   font-weight: 700;
+
 }
 </style>
